@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    margin: 0 1em;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: .5em;
+
+}
+
+h2 {
+    margin-top: 1.5em;
+    margin-left: .8em;
+}
+
+h3 {
+    text-align: center;
+    margin-top: .8em;
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+p {
+    text-align: center;
+    margin: 3em;
+    font-size: 1.5rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.box #display {
+    margin: .5em;
+    padding: .5em;
+
+}
+
+.btn {
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 100rem;
+    width: 100%;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+}
+
+.container ul {
+    list-style: none;
+    margin-bottom: .8em;
+    margin-top: .6em;
+}
+
+.left,
+.right,
+.middle {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.middle ul li {
+    padding: .2em;
+    font-weight: bolder;
+}
+
+.left ul li {
+    padding: .2em;
+    font-weight: bolder;
+}
+
+.right ul li {
+    padding: .2em;
+    font-weight: bolder;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: .5em;
+}
+
+table td {
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-family: serif;
+    font-weight: bolder;
+    padding: 1em;
+}
+
+table th {
+    padding: .52em;
+    border-bottom: 2px solid black;
+}
+
+.ppp {
+    border-bottom: none;
+}
+
+
+@media (max-width:760px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left,
+    .right,
+    .middle {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+        margin: 2em;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    table td {
+
+        padding: .2em;
+
+
+    }
+
+    table th {
+        padding: .1em;
+    }
+
+
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Weather of <span id="cityname">Delhi</span> </h1>
+    <div class="box">
+        <input type="text" autofocus id="display" placeholder="Enter City">
+        <button class="btn">Submit</button>
+    </div>
+    <div class="container">
+        
+        <div class="left">
+            <h3>Temperature</h3>
+            <ul>
+                <li>Temperature is <span id="temperature"></span></li>
+                <li>Min Temperature is <span id="min-temperature"></span></li>
+                <li>Max Temperature is <span id="max-temperature"></span> </li>
+            </ul>
+            
+        </div>
+        <div class="middle">
+            <h3>Humidity Info</h3>
+            <ul>
+                <li>Feels Like <span id="FeelsLike"></span></li>
+                <li >Sunrise Time is  <span id="Sunrise"></span></li>
+                <li> Humidity is <span id="Humidity"></span></li>
+            </ul>
+        </div>
+        <div class="right">
+            <h3>Wind Info</h3>
+            <ul>
+                <li>Wind Speed is <span id="WindSpeed"></span></li>
+                <li>Wind Degree is <span id="WindDegree"></span></li>
+                <li >Sunset Time is <span id="Sunset"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="flex">
+
+<h1>Weather of Other Common Places</h1>
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>CloudPcp</th>
+            <th>FeelsLike</th>
+            <th>Humidity</th>
+            <th>MaxTemp</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Shanghai</td>
+            <td class="cloud">1</td>
+            <td class="feels">2</td>
+            <td class="humi">3</td>
+            <td class="mxtemp">4</td>
+            
+   
+                </tr>
+                <tr>
+                    <th>Kolkata</th>
+                    <td class="cl">1</td>
+                    <td class="fe">2</td>
+                    <td class="hu">3</td>
+                    <td class="xtemp">4</td>
+                    
+      
+                </tr>
+                
+                <tr>
+                    <th></th>
+                        <th>MinTemp</th>
+                        <th>Sunrise</th>
+                        <th>Sunset</th>
+                        <th>Temp</th>
+                       
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <th>Shanghai</th>
+                        <td class="intemp">5</td>
+                        <td class="rise">6</td>
+                        <td class="set">7</td>
+                        <td class="emp">8</td>
+                        
+                    </tr>
+                    
+                    
+                    <tr>
+                    <th >kolkata</th>
+                    <td class="ntemp">5</td>
+                    <td class="sr">6</td>
+                    <td class="ss">7</td>
+                    <td class="temp">8</td>
+                    
+                </tr>
+                   </tbody>
+           </table>
+    </div>
+    
+
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
