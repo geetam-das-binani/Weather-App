@@ -79,7 +79,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid red;
+    border: 2px solid white;
 
 }
 
@@ -126,9 +126,7 @@ table th {
     border-bottom: 2px solid black;
 }
 
-.ppp {
-    border-bottom: none;
-}
+
 
 
 @media (max-width:760px) {
@@ -163,7 +161,7 @@ table th {
     }
 
     table th {
-        padding: .1em;
+        padding: .2em;
     }
 
 
